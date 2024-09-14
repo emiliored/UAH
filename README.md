@@ -5,6 +5,8 @@ Proyectos y trabajos realizados en la carrera de Ingeniería de Computadores de 
 
 En este repositorio publico los ficheros y documentación utilizados durante mis diferentes proyectos y trabajos en la carrera de Ingeniería de Computadores en la Universidad de Alcalá de Henares (UAH) en España.
 
+Muchos ficheros han sido adaptados rápidamente para quitar información confidencial, es posible que se muestren con formatos incorrectos (debido a el uso de LibreOffice).
+
 Recomiendo mirar el proyecto de **Programación Avanzada**.
 
 ## Uso/Licencia
