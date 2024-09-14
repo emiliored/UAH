@@ -1,0 +1,24 @@
+Tue, May 10, 2022  21:17:08 Europe/Madrid
+
+Nr. NCSS Functions Classes Javadocs Class
+  1   55         5       0        0 org.pmoo.ajedrez.Ajedrez
+  2   90         3       0        0 org.pmoo.ajedrez.Alfil
+  3   66         3       0        0 org.pmoo.ajedrez.Caballo
+  4   10         4       0        0 org.pmoo.ajedrez.Casilla
+  5    5         2       0        0 org.pmoo.ajedrez.Color
+  6   10         3       0        0 org.pmoo.ajedrez.Coordenada
+  7  150         3       0        0 org.pmoo.ajedrez.Dama
+  8   12         4       0        0 org.pmoo.ajedrez.Jugador
+  9    3         1       0        0 org.pmoo.ajedrez.Main
+ 10    8         3       0        0 org.pmoo.ajedrez.NoPieza
+ 11   35         3       0        0 org.pmoo.ajedrez.Peon
+ 12   27        11       0        0 org.pmoo.ajedrez.Pieza
+ 13   66         3       0        0 org.pmoo.ajedrez.Rey
+ 14  310        12       0        0 org.pmoo.ajedrez.Tablero
+ 15   12         3       0        0 org.pmoo.ajedrez.Teclado
+ 16   78         3       0        0 org.pmoo.ajedrez.Torre
+Average Object NCSS:                 58.56
+Average Object Functions:             4.13
+Average Object Inner Classes:         0.00
+Average Object Javadoc Comments:      0.00
+Program NCSS:                       956.00

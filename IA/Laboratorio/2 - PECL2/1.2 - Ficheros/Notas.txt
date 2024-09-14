@@ -1,0 +1,16 @@
+Diapositivas:
+Alex: 2,3,4,5,6,7,8
+Christina: 9,10,16,17,18,19
+Emilio: 11,12,13,14,15
+
+https://colab.research.google.com/drive/1hOC1EiqAK3SxMqtsUN0CpIZQDkrsOgq2?usp=sharing
+
+Diapositiva2: Se han utilizado las siguientes librerías, en especial destacar el uso de la librería "sklearn" que contiene numerosos métodos para la creación y administración de los diferentes modelos que utilizaremos a lo largo de la presentación. Utilizaremos "Pandas" para la creación de tablas dinámicas necesario para una parte de la práctica. También usaremos MatplotLib para representar con gráficas la información obtenenida. En el recuadro se puede observar cómo se han utilizado los datos de estudio.
+Diapositiva3: Los datos se han dividido en dos partes una correspondiente a los datos de entrenamiento que usaremos con los modelos y la otra a los datos de prueba que usaremos para comprobar la efectividad de dichos modelos. Se ha realizado esta división, porque tenemos una cantidad de datos pequeña si tuviésemos mayor cantidad de datos aumentaríamos la proporción a 99%/1%
+Diapositiva6: Como se puede observar, la efectividad del modelo es de un 93% cuyo mejor número de vecinos es 8. Se puede interpretar que no es directamente proporcional el aumento del número de vecinos con su exactitud. Por otro lado, donde menos Falsos Negativos se obtienen es utilizando 39 vecinos. Habría que determinar si queremos mayor exactitud o priorizamos menor número de Falsos Negativos. Se buscan falsos negativos porque al utilizar una base de datos que nos muestran los tumores, queremos saber cuando le estamos diciendo al paciente cuándo su tumor es benigno y cuándo es maligno.
+-------
+Diapositiva11: En este caso utilizaremos un modelo de RNA multicapa con dos capas ocultas y 5,10,15 neuronas en dichas capas progresivamente. Para ello: Nos creamos el modelo RNA Multicapa.Entrenamos los modelos utilizando datos de entrenamiento estandarizados.Obtenemos la precisión del modelo utilizando la validación cruzada de los datos de entrenamiento y calculamos los FN. 
+Diapositiva12:  En este modelo es necesario hacer una estandarización/escalado de los datos, ya que le proporciona mayor precisión al modelo. Para ello, utilizaremos un método de la librería sklearn que te estandariza los datos de entrada utilizando la fórmula de la normal.
+Diapositiva13: Como se puede observar el modelo RNA Multicapa tiene más precisión que los anteriores modelos, aproximadamente entre 80% hasta el 98%, con la desventaja que en este modelo es que alguno de sus parámetros tienen una naturaleza estocástica. También su probabilidad de FN mejora en comparación con otros modelos.
+Diapositiva14: De los datos anteriores se deduce que los mejores modelos son el Knn y el de árboles, ya que siempre dan valores estables. Dichos modelos tienen solo un hiperparámetro, por lo que tienen muchas oportunidades para aprender. Pero si ponemos a calcular muchos modelos RNA, podremos hallar alguno con mejor precisión y mejor FN que el resto de modelos. 
+Diapositiva15: Como se puede observar en las gráficas el modelo lineal es el peor modelo. Y en determinadas situaciones, el mejor es el RNA multicapa, pero no siempre, debido a su naturaleza estocástica.

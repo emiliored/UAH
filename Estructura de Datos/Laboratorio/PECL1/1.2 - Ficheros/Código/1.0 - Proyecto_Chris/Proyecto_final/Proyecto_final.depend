@@ -1,0 +1,74 @@
+# depslib dependency file v1.0
+1666725246 source:c:\users\uah\desktop\codeblock\proyecto_final\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<iomanip>
+	"Paquetes.h"
+
+1666709515 c:\users\uah\desktop\codeblock\proyecto_final\mi_cabecera.h
+	<math.h>
+	<conio.h>
+	<iomanip>
+
+1666940407 c:\users\uah\desktop\codeblock\proyecto_final\paquetes.h
+	<math.h>
+	<conio.h>
+	<iomanip>
+	<cstring>
+	<algorithm>
+	<stdio.h>
+	<stdlib.h>
+
+1666721646 source:c:\users\cnogue\desktop\codeblocks\proyecto_final\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<iomanip>
+	"Paquetes.h"
+
+1666448022 c:\users\cnogue\desktop\codeblocks\proyecto_final\mi_cabecera.h
+	<math.h>
+	"Paquetes.h"
+
+1667130297 c:\users\cnogue\desktop\codeblocks\proyecto_final\paquetes.h
+	<math.h>
+	<conio.h>
+	<iomanip>
+	<cstring>
+	<algorithm>
+	<stdio.h>
+	<stdlib.h>
+
+1666617375 source:c:\users\uah\desktop\codeblock\proyecto_final1\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<iomanip>
+	"Mi_Cabecera.h"
+
+1666620406 c:\users\uah\desktop\codeblock\proyecto_final1\mi_cabecera.h
+	<math.h>
+	<conio.h>
+	"Paquetes.h"
+
+1666347041 c:\users\uah\desktop\codeblock\proyecto_final1\paquetes.h
+
+1666724653 source:c:\users\uah\desktop\codeblock\proyecto_final\arc\paquetes.cpp
+
+1666721646 source:c:\users\cnogue\desktop\codeblocks\proyecto_final1\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<iomanip>
+	"Paquetes.h"
+
+1667133217 c:\users\cnogue\desktop\codeblocks\proyecto_final1\paquetes.h
+	<math.h>
+	<conio.h>
+	<iomanip>
+	<cstring>
+	<algorithm>
+	<stdio.h>
+	<stdlib.h>
+

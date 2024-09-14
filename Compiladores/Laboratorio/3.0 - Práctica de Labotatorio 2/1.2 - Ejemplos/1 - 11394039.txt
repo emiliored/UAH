@@ -1,0 +1,4 @@
+Nombre; Frase; Tipo; Lanzamiento
+Aatrox; the Darkin Blade; Juggernaut; 2013-06-13
+Ahri; the Nine-Tailed Fox; Burst; 2011-12-14
+Akali; the Rogue Assassin; Assassin; 2010-05-11

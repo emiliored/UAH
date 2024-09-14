@@ -1,0 +1,30 @@
+>> Preparacion de ingredientes
+    muslos <- limpiar 7 "muslos de pollo"
+    sofrito <- cortar 1 "cebolla", 2 "diente de ajo"
+    muslos <- "sal", "pimienta"
+>> Salsa de tomate
+    tomates <- lavar "tomate"
+    tomates <- cortar tomates
+    tomates <- licuar tomates
+
+>> Preparar pollo
+    sarten <- "aceite"
+    sarten <- calentar "sarten" a medio  
+    5m: 
+    sarten <- muslos
+    5m: 
+    papel_absorbente <- sarten
+    sarten <- calentar sarten a bajo 
+    sarten <- sofrito
+    3m:
+    sarten <- tomates
+    5m:
+    sarten <- 200ml de "caldo de pollo", 2 "hoja de laurel", 30ml de "vino"
+    3m:
+    sarten <- papel_absorbente
+>> Emplatar
+40m:
+    plato <- sarten
+
+
+

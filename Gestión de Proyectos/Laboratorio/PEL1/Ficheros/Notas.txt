@@ -1,0 +1,39 @@
+Viabilidad:	
+	- Mínimo pestaña 1 dos veces (una para cada alternativa)
+	- Hacer la viabilidad de las alternativas.
+	- 
+	
+En el Proyect meter las tareas de tipo resumen. 
+Las tareas de tipo hito son entregas.
+En hoja de recursos:
+	Meter al personal implicado.
+	El costo es cuando son viajes (o una subcontrata).
+	En el precio buscar en portales de empleo
+Dentro de las tareas meter los recursos implicados.
+Configurar proyect:
+	Propiedades ->Programación -> VAlores decimales
+	Programación -> Tipo de tarea predeterminada -> Trabajo fijo
+	Actualizar el estado en opciones de cálculo para proyecto.
+	
+En la pestaña proyecto -> Cambiar tiempo de trabajo -> Meter un calendario laboral de internet
+Establecer días como periodo no laborable.
+En calendario hacer copia del estandar
+En la memoria hacer pantallazos del proyect, hay que explicarlo
+La estimación de hojas y gastos
+Las horas del excel, word opcional y el proyect tienen que coincidir.
+
+Tareas:
+Duración 6 meses:
+- Creación de la aplicación básica cliente frond-end: 4 programadores, 1 analista 4 meses. P1
+- Creación del backend básico del servidor 4 programadores, 1 analista, 4 meses P1
+- Creación de la base de datos: 2 meses 2 analistas-programadores P1
+- Integración en producción: 2 analistas-programadores 1 mes.
+- 
+- Integración de la base de datos en el cliente: 1 mes, 1 consultor y 1 analista-programador para configurar la base de datos.
+
+
+- Programación de la gestión (ingresos/gastos) de un empresa.
+	- Integración en el frond-end.
+	- Especificación de la tarea back-end.
+	- Programación de la tarea back-end.
+	- Integración en la base de datos del back-end.

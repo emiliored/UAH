@@ -1,0 +1,11 @@
+# Inicializacion de variable
+asignar a = 20 ;P  
+  
+# if-else sencillo 
+a > 2 ???  
+si ->  
+    a = 5 - 2 ;P
+terminar
+  
+# imprimir por pantalla  
+mostrar a ;P

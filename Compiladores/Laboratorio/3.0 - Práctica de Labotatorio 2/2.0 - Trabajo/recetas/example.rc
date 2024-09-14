@@ -1,0 +1,96 @@
+Batir huevos durante 1h y 30min.
+Precalentar (horno / el horno) a 320C
+
+== Partes del lenguaje ==
+--- Verbos 
+
+--- Utensilios
+Algunos utensilios están asociados a unidades y verbos por lo que estos tienen que tener además una lista de utensilios implícitos
+(Por ejemplo para cortar hace falta un cuchillo)
+
+--- Unidades
+Las unidades tienen que poder transformarse entre sí para poder hacer la fase avanzada de la práctica
+- Volumen
+l
+dl
+cl
+ml
+
+Las conversiones para las siguientes unidades no están determinadas por el momento, aunque se tienen que determinar para poder hacer una lista final
+Para poder hacer las siguientes mediciones se tienen que usar también utensilios (posiblemente no se termine implementando si no tengo tiempo)
+cucharada
+cucharadita
+
+- Masa
+Kg
+dg
+g
+mg
+
+- Tiempo
+h
+m
+s
+
+Sintaxis para definir tiempos y secuencia de eventos
+>> Sección // Puede tener variables globales
+    Instrucción
+    Instrucción
+    ...
+10m: // Después de 10min de empezar la sección
+    Instrucción
+    Instrucción
+    ...
+5m: // Después de 5min de la anterior marca de tiempo
+    Instrucción
+    Instrucción
+    ...
+>> Sección 2
+
+--- Definición de elementos ---
+symbol <- verb ammount "de" ingredient "en" symbol
+// Usado para el tipo de dato de almacenamiento (significa vaciar en)
+symbol <- symbol
+symbol <- vaciar symbol
+
+
+--- Simplificación de sintaxis ---
+// Todas las instrucciones van precedidas de un tabulador
+\tsymbol "<-" verb ammount "de" ingredient "en" symbol\n
+\tsymbol "<-" verb symbol "en" symbol\n
+\tsymbol "<-" verb symbol\n // Por ejemplo con la preparación de almacenamiento
+
+">>" text // Sección
+timestamp:\n
+
+// Estructuración
+
+
+== Ejemplo de receta ==
+-- Sintaxis 1 --
+- Cortar 1Kg de "filetes de pollo" -> filetes
+- Cocinar filetes en sarten -> cocinados
+- Emplatar cocinados
+
+-- Sintaxis 2 --
+filetes := cortar 1Kg de "filetes de pollo"
+sarten_1 := calentar sarten
+cocinar filetes en sarten_1 durante 1m 30s
+
+-- Sintaxis 3 --
+>> Preparación de filetes // Sección
+cortar 1Kg de "filetes de pollo" -> filetes
+calentar sarten -> sarten_1
+cocinar filetes en sarten_1 durante 3m 10s -> cocinados
+calentar sarten -> sarten_2
+>> Preparación de la salsa
+cortar 2 "cebolla" -> local cebollas
+cortar 300g de "zanahoria" -> local zanahorias
+sofreir cebollas en sarten_2
+10m: sofreir zanahorias en sarten_2
+5m:
+    añadir 200ml de "nata" en sarten_2
+2m: 
+    vaciar sarten_2 -> salsa
+>> Emplatar
+emplatar salsa en "plato"

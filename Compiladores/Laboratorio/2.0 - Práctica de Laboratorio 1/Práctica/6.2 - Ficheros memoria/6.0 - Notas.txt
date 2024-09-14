@@ -1,0 +1,25 @@
+a,b,c
+
+(a?bc(a)*)|(ba(b|c)+)|(c(a|b)+)
+		bc
+		abc
+		bcaaaaaaaa
+		bca
+		abcaaa
+	or:
+		bab
+		babccccbcb
+		bac
+		bacbcccc
+	or:
+		ca
+		cb
+		cababababa
+		caaaaaab
+		
+(b((a)+|(cb)+))?(abc(a|b|c)+)c(a)?
+
+
+(a?bc(a)*)|ba
+
+(b((a)+|(cb)+))?ca

@@ -1,0 +1,27 @@
+Realizar (Enunciado):
+
+r1 <- 0 ;
+r2 <- 3;
+r3 <- 12;
+r3 <- r1+r0;
+r9 <- r9-1;
+r12 <- r3 <<2;
+r1 <- r12 <<1;
+r1 <- M(r0+1024);
+r2 <- M(r1+a);
+M(r0+0) <- r12;
+M(r0+10*4+a) <- r0;
+
+Realizar (Solución):
+
+XOR R1, R1, R1;ADD R1, R0, R0; ADDI R1, R0, #0;
+ADDI R2, R0, #3;
+ADDI R3, R0, #12;
+ADD R3,R1,R0;
+SUBI R9,R9,#1
+SLLI R12,R3,#2;
+SLLI R1,R12,#1;
+LW R1,1024(R0);
+LW R2,a(R1);
+SW 0(R0), R12;
+SW 10*4+a(R0), R0;

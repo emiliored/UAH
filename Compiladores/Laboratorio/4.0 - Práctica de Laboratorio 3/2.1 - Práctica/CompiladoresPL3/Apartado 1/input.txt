@@ -1,0 +1,3 @@
+Type,Fast Moves,DPS,Power-PvP,Energy-PvP,Cast Time,Turns,DPT,EPT
+Ste?Steel Wing?"13,8"?11-7?6-5?"0,8s"?2?"3,5"?"2,5"
+Dra,Dragon Tail;"13,6",15-9,9-10|"1,1s",3,"3,0","3,3"

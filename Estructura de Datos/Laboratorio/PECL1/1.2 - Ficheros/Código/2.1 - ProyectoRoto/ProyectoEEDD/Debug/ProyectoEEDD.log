@@ -1,0 +1,10 @@
+﻿  Gestor.cpp
+E:\Onedrive\Datos\Universidad\Cursos 3º\1º Cuatrimestre\Estructura de Datos\Laboratorio\PECL1\1.2 - Ficheros\Código\Proyecto\ProyectoEEDD\Gestor.cpp(72,21): warning C4018: '<': no coinciden signed/unsigned
+E:\Onedrive\Datos\Universidad\Cursos 3º\1º Cuatrimestre\Estructura de Datos\Laboratorio\PECL1\1.2 - Ficheros\Código\Proyecto\ProyectoEEDD\Gestor.cpp(111,20): warning C4018: '<': no coinciden signed/unsigned
+E:\Onedrive\Datos\Universidad\Cursos 3º\1º Cuatrimestre\Estructura de Datos\Laboratorio\PECL1\1.2 - Ficheros\Código\Proyecto\ProyectoEEDD\Gestor.cpp(135,20): warning C4018: '<': no coinciden signed/unsigned
+E:\Onedrive\Datos\Universidad\Cursos 3º\1º Cuatrimestre\Estructura de Datos\Laboratorio\PECL1\1.2 - Ficheros\Código\Proyecto\ProyectoEEDD\Gestor.cpp(153,24): warning C4018: '<=': no coinciden signed/unsigned
+E:\Onedrive\Datos\Universidad\Cursos 3º\1º Cuatrimestre\Estructura de Datos\Laboratorio\PECL1\1.2 - Ficheros\Código\Proyecto\ProyectoEEDD\Gestor.cpp(164,20): warning C4018: '<': no coinciden signed/unsigned
+E:\Onedrive\Datos\Universidad\Cursos 3º\1º Cuatrimestre\Estructura de Datos\Laboratorio\PECL1\1.2 - Ficheros\Código\Proyecto\ProyectoEEDD\Gestor.cpp(168,20): warning C4553: "==": el resultado de la expresión no se usa. ¿Quiso decir "="?
+E:\Onedrive\Datos\Universidad\Cursos 3º\1º Cuatrimestre\Estructura de Datos\Laboratorio\PECL1\1.2 - Ficheros\Código\Proyecto\ProyectoEEDD\Gestor.cpp(186,20): warning C4018: '<': no coinciden signed/unsigned
+E:\Onedrive\Datos\Universidad\Cursos 3º\1º Cuatrimestre\Estructura de Datos\Laboratorio\PECL1\1.2 - Ficheros\Código\Proyecto\ProyectoEEDD\Gestor.cpp(218,20): warning C4018: '<': no coinciden signed/unsigned
+  ProyectoEEDD.vcxproj -> E:\Onedrive\Datos\Universidad\Cursos 3º\1º Cuatrimestre\Estructura de Datos\Laboratorio\PECL1\1.2 - Ficheros\Código\Proyecto\ProyectoEEDD\Debug\ProyectoEEDD.exe

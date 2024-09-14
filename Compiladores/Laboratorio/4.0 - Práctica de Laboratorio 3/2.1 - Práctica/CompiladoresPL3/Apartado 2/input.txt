@@ -1,0 +1,1 @@
+imgdim:180,shpdim:32>>>circulo,cuadrado,pentagono,cuadrado,triangulo,triangulo|triangulo,circulo,pentagono|cuadrado,circulo,triangulo,cuadrado,pentagono|circulo,circulo,circulo|triangulo,pentagono<<<

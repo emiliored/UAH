@@ -1,0 +1,23 @@
+https://colab.research.google.com/drive/14wUq4LDpIMhv16rz0dAm6pNhhVZdzy0q?usp=sharing&pli=1&authuser=1#scrollTo=YiAIHb3tBKKJ
+
+- Emilio:
+    Diapositivas 2 a la 8
+- Cris:
+    Diapositivas 9 a la 15
+- Alex:
+    Diapositivas 16 a la 20
+
+1. Presentación (1 Diapositiva).
+2. Explicación del problema (3 Diapositivas).
+3. Estructura de la presentacion, Representacion, Modelo y Optimización (1 Diapositiva) .
+4. Representación.
+    1. Explicación del modelo, porque lo hemos escogido (2 Diapositivas).
+    2. Estructura del modelo (2 Diapositivas) (Consiste en redes convucionales para el tratamiento de imagenes y la GAN para la generacion de la imagen mejorada).
+5. Evaluación.
+    1. Explicar posibles problemas que tenga las redes convolucionales y las GAN aplicadas a nuestro problema. (Sobreajuste, Desbalanceo de datos, Tratamiento de inputs, Bases de datos ) (5 Diapositivas).
+6. Optimización 
+    1. Entrenamiento del discriminador y generador (4 Diapositivas).
+    2. Presentación de la función y explicación de como funciona. (1 Diapositiva).
+7. Resumen y cierre del trabajo (2 Diapositivas)
+
+https://www.youtube.com/watch?v=dPYwr8fihH0

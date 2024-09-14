@@ -1,0 +1,13 @@
+Tue, May 10, 2022  21:17:08 Europe/Madrid
+
+Nr.   Classes Functions      NCSS  Javadocs Package
+  1        16        66       956         0 org.pmoo.ajedrez
+    --------- --------- --------- ---------
+           16        66       956         0 Total
+
+ Packages   Classes Functions      NCSS  Javadocs | per
+-------------------------------------------------------------
+     1.00     16.00     66.00    956.00      0.00 | Project
+              16.00     66.00    956.00      0.00 | Package
+                         4.13     59.75      0.00 | Class
+                                  14.48      0.00 | Function

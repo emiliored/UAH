@@ -1,0 +1,74 @@
+"name", "Name Character Count", "Name Word Count", "Single Lines of Code", "Parameters", "Local Variables", "Inbound Intra-Class Method Dependencies", "Inbound Intra-Package Method Dependencies", "Inbound Extra-Package Method Dependencies", "Outbound Intra-Class Feature Dependencies", "Outbound Intra-Package Feature Dependencies", "Outbound Intra-Package Class Dependencies", "Outbound Extra-Package Feature Dependencies", "Outbound Extra-Package Class Dependencies"
+, "MNCC", "MNWC", "SLOC", "PARAM", "LVAR", "IICM", "IIPM", "IEPM", "OICF", "OIPF", "OIPC", "OEPF", "OEPC"
+, , , , , , , , , , , , , 
+"org.pmoo.ajedrez.Ajedrez.Ajedrez()", 7.0, 1.0, 4.0, 0.0, 1.0, 1, 0, 0, 0, 1, 2, 1, 0
+"org.pmoo.ajedrez.Ajedrez.crearJugadores()", 14.0, 2.0, 14.0, 0.0, 5.0, 1, 0, 0, 0, 5, 3, 3, 4
+"org.pmoo.ajedrez.Ajedrez.getMiAjedrez()", 12.0, 3.0, 3.0, 0.0, 0.0, 0, 1, 0, 1, 0, 0, 0, 0
+"org.pmoo.ajedrez.Ajedrez.jugarPartida()", 12.0, 2.0, 14.0, 0.0, 1.0, 0, 1, 0, 2, 4, 2, 1, 3
+"org.pmoo.ajedrez.Ajedrez.turno()", 5.0, 1.0, 10.0, 0.0, 4.0, 1, 0, 0, 0, 5, 3, 1, 3
+"org.pmoo.ajedrez.Alfil.Alfil(org.pmoo.ajedrez.Color)", 5.0, 1.0, 7.0, 1.0, 2.0, 0, 1, 0, 1, 2, 1, 0, 2
+"org.pmoo.ajedrez.Alfil.puedeComer(org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Casilla)", 10.0, 2.0, 60.0, 3.0, 12.0, 0, 0, 0, 1, 7, 6, 0, 0
+"org.pmoo.ajedrez.Alfil.puedeMover(org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Casilla)", 10.0, 2.0, 30.0, 3.0, 8.0, 0, 0, 0, 0, 6, 5, 0, 0
+"org.pmoo.ajedrez.Caballo.Caballo(org.pmoo.ajedrez.Color)", 7.0, 1.0, 7.0, 1.0, 2.0, 0, 1, 0, 1, 2, 1, 0, 2
+"org.pmoo.ajedrez.Caballo.puedeComer(org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Casilla)", 10.0, 2.0, 36.0, 3.0, 4.0, 0, 0, 0, 1, 4, 5, 0, 0
+"org.pmoo.ajedrez.Caballo.puedeMover(org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Casilla)", 10.0, 2.0, 18.0, 3.0, 4.0, 0, 0, 0, 0, 3, 4, 0, 0
+"org.pmoo.ajedrez.Casilla.Casilla()", 7.0, 1.0, 3.0, 0.0, 1.0, 0, 1, 0, 0, 1, 2, 1, 0
+"org.pmoo.ajedrez.Casilla.getPieza()", 8.0, 2.0, 1.0, 0.0, 1.0, 0, 21, 0, 0, 0, 1, 0, 0
+"org.pmoo.ajedrez.Casilla.imprimirPieza()", 13.0, 2.0, 2.0, 0.0, 1.0, 0, 2, 0, 0, 1, 1, 1, 3
+"org.pmoo.ajedrez.Casilla.setPieza(org.pmoo.ajedrez.Pieza)", 8.0, 2.0, 2.0, 1.0, 2.0, 0, 4, 0, 0, 0, 1, 0, 0
+"org.pmoo.ajedrez.Color.$values()", 7.0, 1.0, 0.0, 0.0, 0.0, 1, 0, 0, 0, 0, 0, 0, 0
+"org.pmoo.ajedrez.Color.Color(java.lang.String, int, java.lang.String)", 5.0, 1.0, 3.0, 3.0, 2.0, 1, 0, 0, 0, 0, 0, 1, 1
+"org.pmoo.ajedrez.Color.getColor()", 8.0, 2.0, 1.0, 0.0, 1.0, 0, 1, 0, 0, 0, 0, 0, 1
+"org.pmoo.ajedrez.Color.static {}", 6.0, 1.0, 2.0, 0.0, 0.0, 0, 0, 0, 2, 0, 0, 0, 1
+"org.pmoo.ajedrez.Color.valueOf(java.lang.String)", 7.0, 2.0, 1.0, 1.0, 1.0, 0, 0, 0, 0, 0, 0, 1, 3
+"org.pmoo.ajedrez.Color.values()", 6.0, 1.0, 1.0, 0.0, 0.0, 0, 0, 0, 0, 1, 1, 0, 1
+"org.pmoo.ajedrez.Coordenada.Coordenada(int, int)", 10.0, 1.0, 4.0, 2.0, 3.0, 0, 11, 0, 0, 0, 0, 1, 0
+"org.pmoo.ajedrez.Coordenada.getColumna()", 10.0, 2.0, 1.0, 0.0, 1.0, 0, 16, 0, 0, 0, 0, 0, 0
+"org.pmoo.ajedrez.Coordenada.getFila()", 7.0, 2.0, 1.0, 0.0, 1.0, 0, 16, 0, 0, 0, 0, 0, 0
+"org.pmoo.ajedrez.Dama.Dama(org.pmoo.ajedrez.Color)", 4.0, 1.0, 7.0, 1.0, 2.0, 0, 2, 0, 1, 2, 1, 0, 2
+"org.pmoo.ajedrez.Dama.puedeComer(org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Casilla)", 10.0, 2.0, 108.0, 3.0, 20.0, 0, 0, 0, 1, 7, 6, 0, 0
+"org.pmoo.ajedrez.Dama.puedeMover(org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Casilla)", 10.0, 2.0, 54.0, 3.0, 12.0, 0, 0, 0, 0, 6, 5, 0, 0
+"org.pmoo.ajedrez.Jugador.Jugador(java.lang.String, org.pmoo.ajedrez.Color)", 7.0, 1.0, 4.0, 2.0, 3.0, 0, 1, 0, 0, 0, 1, 1, 1
+"org.pmoo.ajedrez.Jugador.getColor()", 8.0, 2.0, 1.0, 0.0, 1.0, 0, 2, 0, 0, 0, 1, 0, 0
+"org.pmoo.ajedrez.Jugador.getNombre()", 9.0, 2.0, 1.0, 0.0, 1.0, 0, 2, 0, 0, 0, 0, 0, 1
+"org.pmoo.ajedrez.Jugador.imprimirColor()", 13.0, 2.0, 1.0, 0.0, 1.0, 0, 1, 0, 0, 1, 1, 0, 1
+"org.pmoo.ajedrez.Main.Main()", 4.0, 1.0, 1.0, 0.0, 1.0, 0, 0, 0, 0, 0, 0, 1, 0
+"org.pmoo.ajedrez.Main.main(java.lang.String[])", 4.0, 1.0, 2.0, 1.0, 1.0, 0, 0, 0, 0, 2, 1, 0, 1
+"org.pmoo.ajedrez.NoPieza.NoPieza()", 7.0, 2.0, 2.0, 0.0, 1.0, 0, 0, 0, 1, 0, 1, 0, 0
+"org.pmoo.ajedrez.NoPieza.NoPieza(org.pmoo.ajedrez.Color)", 7.0, 2.0, 3.0, 1.0, 2.0, 1, 2, 0, 0, 1, 1, 0, 1
+"org.pmoo.ajedrez.NoPieza.visualizarPieza()", 15.0, 2.0, 1.0, 0.0, 1.0, 0, 0, 0, 0, 0, 0, 0, 1
+"org.pmoo.ajedrez.Peon.Peon(org.pmoo.ajedrez.Color)", 4.0, 1.0, 7.0, 1.0, 2.0, 0, 1, 0, 1, 2, 1, 0, 2
+"org.pmoo.ajedrez.Peon.puedeComer(org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Casilla)", 10.0, 2.0, 15.0, 3.0, 4.0, 0, 0, 0, 1, 4, 5, 0, 0
+"org.pmoo.ajedrez.Peon.puedeMover(org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Casilla)", 10.0, 2.0, 13.0, 3.0, 4.0, 0, 0, 0, 1, 6, 6, 0, 0
+"org.pmoo.ajedrez.Pieza.Pieza(org.pmoo.ajedrez.Color)", 5.0, 1.0, 4.0, 1.0, 2.0, 0, 7, 0, 0, 0, 1, 1, 0
+"org.pmoo.ajedrez.Pieza.getColor()", 8.0, 2.0, 1.0, 0.0, 1.0, 0, 11, 0, 0, 0, 1, 0, 0
+"org.pmoo.ajedrez.Pieza.getNumeroPieza()", 14.0, 3.0, 1.0, 0.0, 1.0, 0, 2, 0, 0, 0, 0, 0, 0
+"org.pmoo.ajedrez.Pieza.mover(org.pmoo.ajedrez.Casilla)", 5.0, 1.0, 2.0, 1.0, 2.0, 0, 1, 0, 0, 1, 1, 0, 0
+"org.pmoo.ajedrez.Pieza.puedeComer(org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Casilla)", 10.0, 2.0, 1.0, 3.0, 4.0, 0, 3, 0, 0, 0, 2, 0, 0
+"org.pmoo.ajedrez.Pieza.puedeMover(org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Casilla)", 10.0, 2.0, 1.0, 3.0, 4.0, 0, 1, 0, 0, 0, 2, 0, 0
+"org.pmoo.ajedrez.Pieza.resetearNumeroPieza()", 19.0, 3.0, 2.0, 0.0, 1.0, 0, 2, 0, 0, 0, 0, 0, 0
+"org.pmoo.ajedrez.Pieza.setColor(org.pmoo.ajedrez.Color)", 8.0, 2.0, 2.0, 1.0, 2.0, 0, 0, 0, 0, 0, 1, 0, 0
+"org.pmoo.ajedrez.Pieza.setNumeroPieza(int)", 14.0, 3.0, 2.0, 1.0, 2.0, 0, 2, 0, 0, 0, 0, 0, 0
+"org.pmoo.ajedrez.Pieza.setPiezaAImprimir(java.lang.String)", 17.0, 4.0, 2.0, 1.0, 2.0, 0, 0, 0, 0, 0, 0, 0, 1
+"org.pmoo.ajedrez.Pieza.visualizarPieza()", 15.0, 2.0, 1.0, 0.0, 1.0, 0, 2, 0, 0, 0, 0, 0, 1
+"org.pmoo.ajedrez.Rey.Rey(org.pmoo.ajedrez.Color)", 3.0, 1.0, 7.0, 1.0, 2.0, 0, 1, 0, 1, 2, 1, 0, 2
+"org.pmoo.ajedrez.Rey.puedeComer(org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Casilla)", 10.0, 2.0, 36.0, 3.0, 4.0, 0, 0, 0, 1, 4, 5, 0, 0
+"org.pmoo.ajedrez.Rey.puedeMover(org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Casilla)", 10.0, 2.0, 18.0, 3.0, 4.0, 0, 0, 0, 0, 3, 4, 0, 0
+"org.pmoo.ajedrez.Tablero.Tablero()", 7.0, 1.0, 4.0, 0.0, 1.0, 1, 0, 0, 1, 0, 2, 1, 0
+"org.pmoo.ajedrez.Tablero.casillaVacia(org.pmoo.ajedrez.Coordenada)", 12.0, 2.0, 1.0, 1.0, 2.0, 0, 7, 0, 0, 3, 4, 0, 0
+"org.pmoo.ajedrez.Tablero.coronacion()", 10.0, 1.0, 9.0, 0.0, 2.0, 0, 1, 0, 0, 4, 4, 1, 3
+"org.pmoo.ajedrez.Tablero.getMiTablero()", 12.0, 3.0, 3.0, 0.0, 0.0, 0, 10, 0, 1, 0, 0, 0, 0
+"org.pmoo.ajedrez.Tablero.imprimirMovimientosConNumeros(boolean[][])", 29.0, 4.0, 33.0, 1.0, 6.0, 1, 0, 0, 0, 4, 3, 3, 3
+"org.pmoo.ajedrez.Tablero.imprimirTableroConNumeros(org.pmoo.ajedrez.Jugador)", 25.0, 4.0, 32.0, 1.0, 6.0, 0, 1, 0, 0, 5, 5, 3, 3
+"org.pmoo.ajedrez.Tablero.inicializarTablero()", 18.0, 2.0, 28.0, 0.0, 5.0, 1, 0, 0, 0, 8, 3, 0, 0
+"org.pmoo.ajedrez.Tablero.jaque(org.pmoo.ajedrez.Jugador)", 5.0, 1.0, 27.0, 1.0, 8.0, 0, 1, 0, 0, 7, 7, 1, 3
+"org.pmoo.ajedrez.Tablero.jaqueMate()", 9.0, 2.0, 26.0, 0.0, 5.0, 0, 1, 0, 0, 2, 4, 1, 3
+"org.pmoo.ajedrez.Tablero.reyAhogado()", 10.0, 2.0, 155.0, 0.0, 17.0, 0, 1, 0, 0, 6, 6, 1, 3
+"org.pmoo.ajedrez.Tablero.seleccionarMovimiento()", 21.0, 2.0, 46.0, 0.0, 14.0, 0, 1, 0, 2, 14, 5, 2, 5
+"org.pmoo.ajedrez.Tablero.seleccionarPieza()", 16.0, 2.0, 15.0, 0.0, 6.0, 1, 0, 0, 0, 5, 4, 2, 4
+"org.pmoo.ajedrez.Teclado.Teclado()", 7.0, 1.0, 3.0, 0.0, 1.0, 1, 0, 0, 0, 0, 0, 2, 3
+"org.pmoo.ajedrez.Teclado.getTeclado()", 10.0, 2.0, 3.0, 0.0, 0.0, 0, 3, 0, 1, 0, 0, 0, 0
+"org.pmoo.ajedrez.Teclado.pedirEntrada()", 12.0, 2.0, 2.0, 0.0, 2.0, 0, 3, 0, 0, 0, 0, 1, 2
+"org.pmoo.ajedrez.Torre.Torre(org.pmoo.ajedrez.Color)", 5.0, 1.0, 7.0, 1.0, 2.0, 0, 1, 0, 1, 2, 1, 0, 2
+"org.pmoo.ajedrez.Torre.puedeComer(org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Casilla)", 10.0, 2.0, 52.0, 3.0, 12.0, 0, 0, 0, 1, 7, 6, 0, 0
+"org.pmoo.ajedrez.Torre.puedeMover(org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Coordenada, org.pmoo.ajedrez.Casilla)", 10.0, 2.0, 26.0, 3.0, 8.0, 0, 0, 0, 0, 6, 5, 0, 0

@@ -1,0 +1,45 @@
+//Clase Paquete
+-Tipo: number, de 1,2,3
+-Etiqueta: struct
+	-ID: array[7], 2 num aleatorios,1 char (aleatorio),4 numeros secuenciales
+	-GPS: struct
+		-latitud:array[6]:numeros
+		-longitud:array[6]:numeros
+	-NIF: array[9], 8 son numeros + 1 letra
+-Urgente: bool
+//Clase Furgoneta
+-MuelleSalida:int 1,2,3,4
+-ZonaEntrega:int 1,2,3,4
+-Paquetes:array[5] de tipo Paquete
+-Repartiendo:bool
+//Clase Cliente
+-Datos:Struct
+	-NIF: array[9], 8 son numeros + 1 letra
+//CentralPaqueteria
+//Cola
+espec COLA[Paquete] 
+usa BOOLEANOS 
+parametro formal 
+generos Paquete
+fparametro 
+generos cola 
+//MuellesdeCarga
+// Los muelles de carga son pilas, por lo que tendrá la siguiente especificación:
+espec PILA[Paquete]
+usa BOOLEANOS
+parametro formal
+generos Paquete
+fparametro
+generos pila
+//ZonaEntrega
+//Cola
+
+contador:int - Sirve para controlar la ejecución.
+espec PAQUETE
+usa Entero, Cadena, Logico
+generos paquete
+operaciones
+var tipo, etiqueta_gps_latitud, etiqueta_gps_longitud:Entero
+var etiqueta_id, nif:Cadena
+var urgente:Logico
+fespec

@@ -1,0 +1,22 @@
+Equivalencias de ER de teoría a ER de JFLAPS
+            ER                                     JFLAPS
+#############################################################################
+()                                 #        () (no hay cambios)
+* (Cierre de Kleene)               #        * (no hay cambios)
++                                  #          (no existe equivalente directo)
+| (xor)                            #        +
+[]                                 #          (no existe equivalente directo)
+?                                  #          (no existe equivalente directo)
+  (no existe equivalente directo)  #        ! (elemento vacío epsilon)
+
+
+Transformación con ejemplos:
+            ER                                     JFLAPS
+#############################################################################
+a|b|c                              #        a+b+c
+abc                                #        abc
+a?bc                               #        (!+a)bc
+a+bc                               #        a(!+a)*bc
+(abc)*                             #        (abc)*
+[abcd]                             #        (a+b+c+d)
+[a-z]                              #        (a+b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r+s+t+u+v+w+x+y+z)

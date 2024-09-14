@@ -1,0 +1,17 @@
+Transformación a matriz:
+Columnas: Caractéres de entrada
+Filas: Estados del AFD
+Se marca el estado inicial y los de aceptación (finales)
+
+
+       a     b     c     d     e
+q0-I   q1    q2
+q1           q2
+q2                 q3
+q3-F                     q4
+q4                             q5
+q5-F                     q4
+
+
+abcdedede
+a?bc(de)*

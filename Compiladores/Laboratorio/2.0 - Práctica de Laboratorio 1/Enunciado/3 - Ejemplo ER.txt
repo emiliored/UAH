@@ -1,0 +1,12 @@
+ER a tratar:
+
+    a?bc(de)*
+
+Transformación a ER JFLAPS:
+    (!+a)bc(de)*
+
+Lexemas candidatos para probar el patrón
+    abcdedede
+    bc
+    bcdedebc
+    b

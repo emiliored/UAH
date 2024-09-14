@@ -1,0 +1,11 @@
+Apartado*/bin
+Apartado*/binJava
+Apartado*/Notas.txt
+Apartado*/.antlr
+EjemplosJasmin/.antlr
+__pycache__
+*.session
+test
+Notas.txt
+*.class
+*.jar
